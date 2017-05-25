@@ -1,0 +1,132 @@
+   body {
+    background-image: url("images/bg.png");
+    background-repeat: repeat-x;
+}
+
+body .container{
+
+height: 500px;
+    width: 300px;
+    background-color: black;
+    margin-top: 40px;
+    border-radius: 5px;
+
+
+}
+
+div.bg{
+    width:250px;
+    height: 450px;
+    background-color: white;
+    opacity: 0.95;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+    padding-top: 140px;
+      
+}
+
+div.bg p{
+  
+    text-align: center;
+   
+}
+div.bg button{
+    
+   display: block;
+    margin: auto;
+}
+
+
+div.bg h3{
+    text-align: center;
+}
+
+body .inner-container{
+    height: 80%;
+     width: 270px;
+    background-color: #F58634;
+    margin-top: 15px;
+    border-radius: 5%;
+    
+}
+
+
+div svg{
+    
+     width: 40px;
+    height: 40px;
+    
+    background-color: #FFF212;
+    border-radius: 14%;
+    margin: 5px;
+    fill: #FFF482;
+}
+
+div svg.game{
+    
+     width: 40px;
+    height: 40px;
+    
+    background-color: #FFF212;
+    border-radius: 14%;
+    margin: 5px;
+    fill: #ECB733;
+}
+
+div svg:hover{
+    
+     width: 40px;
+    height: 40px;
+    
+    background-color: #EBE12D;
+    border-radius: 14%;
+    margin: 5px;
+    box-shadow: 2px 3px 2px grey;
+     fill: white;
+}
+
+.upper-container ul{
+    color: yellow;
+    font-size: 12px;
+    
+    
+}
+
+
+
+div svg.mn{
+    
+     width: 40px;
+    height: 40px;
+    
+    background-color: #863E36;
+    border-radius: 14%;
+    margin: 5px;
+    fill: white;
+}
+div .upper-container{
+    
+    width: 100%;
+    height: 60px;
+    
+    background-color: grey;
+    border-radius: 4%;
+     margin-top: 10px;
+    
+}
+
+div .startGame{
+    
+    width: 80%;
+    height: 120px;
+    background-color: yellow;
+    padding: 5px 20px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 2px black;
+    position: relative;
+    top: -250px;
+    margin: auto;
+    
+}
